@@ -1,0 +1,31 @@
+h1 {
+	color: #FE5F55;	
+}
+
+.summary p {
+	color: #666;
+}
+
+header {
+	background: papayawhip;
+}
+
+.profile { 
+	background: #88D6B1;
+	}  
+
+ .work-experience {
+ 	background: coral;
+  	}  
+
+ .skills { 
+ 	background: lightsalmon;
+ 	}  
+
+ .education { 
+ 	background: #EEF5DB;
+ 	}  
+
+ .contact { 
+ 	background: skyblue;
+ 	}
