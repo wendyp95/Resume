@@ -1,4 +1,17 @@
-h1 {
+
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+.clearfix:after { /* clearfix */
+  content: "";
+  display: table;
+  clear: both;
+}
+
+h1,h2,h3 {
+	font-weight: 400;
+	margin:0;
 	color: #FE5F55;	
 }
 
@@ -8,11 +21,66 @@ h1 {
 
 header {
 	background: papayawhip;
+	text-align: center;
+	padding: 150px 0;
+	background: url(../images/background-1.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position:50%;
+	background-size: cover;
+}
+
+.profile h2 {
+    border: none;
+    background: #2980b9;
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+img.ppic{
+	height:300px;
+	width: auto;
+	margin-right: 3%;
+	border-radius: 100%;
+	border: 1px solid #ccc;
+	padding: 4px;
+
+}
+
+a {
+	transition: all 0.4s ease;
+	colour: purple;
+	text-decoration: none;
+}
+
+a:hover{
+	color:white;
+}
+
+.profile img {
+	float: left;
+}
+
+header h1 {
+	font-family: 'Merriweather';
+}
+
+header h2 {
+
+	font-family: 'Raleway';
+	font-weight: 300;
 }
 
 .profile { 
 	background: #88D6B1;
-	}  
+	}
+
+.content-wrapper {
+	width:800px;
+	max-width: 90%; 
+	margin: 0 auto;
+	padding: 60px 0;
+}
 
  .work-experience {
  	background: coral;
@@ -29,3 +97,20 @@ header {
  .contact { 
  	background: skyblue;
  	}
+
+.item {
+	border-bottom: 1px solid #ccc
+}
+
+.item:last-child {
+	border-bottom: none;
+}
+.details{
+	float:left;
+	width:27%;
+	margin-right: 3%;
+}
+.description {
+ 	float:right;
+ 	width:70%;
+ }
